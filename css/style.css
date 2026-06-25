@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family:"Lato", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    padding: 0;
+    margin: 0;
+    line-height: 0.8px;
+}
+
+.navbar{
+    background:black;
+    padding: 20px 0;
+
+
+}
+.nav-link{
+    color: #959595 !important;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 15px;
+    letter-spacing: 3%;
+    
+}
+.btn{
+    padding: 12px 40px;
+    background: #FD6F00;
+    font-weight: 700;
+    font-size: 16px; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    color: #FD6F00 !important;
+}
