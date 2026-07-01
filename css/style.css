@@ -1,45 +1,254 @@
-*{
+/* common css start  */
+* {
     margin: 0;
     padding: 0;
-    outline: 0;
-    font-family:"Lato", sans-serif;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+   
+
 }
-a{
+
+a {
     text-decoration: none;
+
 }
-ul,ol{
+
+ul,
+ol {
     list-style-type: none;
 }
-h1,h2,h3,h4,h5,h6,p{
-    padding: 0;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
-    line-height: 0.8px;
+    padding: 0;
+    line-height: 0.8;
 }
 
-.navbar{
-    background:black;
-    padding: 20px 0;
-
-
+body{
+     background: #1E1E1E ;
 }
-.nav-link{
-    color: #959595 !important;
-    font-size: 20px;
-    font-weight: 500;
-    margin: 0 15px;
+
+/* common css end  */
+
+
+.nav-link {
+    margin: 0 20px;
+    color: #959595;
+    font-size: 18px;
+    font-weight: 600;
     letter-spacing: 3%;
-    
+    transition: .4s;
 }
-.btn{
+
+.nav-link:hover {
+    color: #FD6F00;
+}
+
+.navbar {
+    padding: 20px 0;
+    /* width: 100%; */
+   
+}
+
+.nav-link :hover {
+    color: #FD6F00;
+}
+
+.mybtn {
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FD6F00;
+    color: white;
+
+}
+
+
+/* banner Part Start */
+#bannerPart {
+    padding-top: 100px;
+
+
+
+}
+
+.bannerContent {
+    padding-top: 236px;
+    padding-bottom: 106px;
+}
+
+.bannerContent h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 3%;
+    color: #707070;
+}
+
+.bannerContent h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 3%;
+    color: #959595;
+    padding-top: 10px;
+    padding-bottom: 24px;
+}
+
+.bannerContent h1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    letter-spacing: 3%;
+    background: linear-gradient(90deg,
+            #984300 0%,
+            #FD6F00 46%,
+            #CA5900 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 17px;
+}
+
+.socialIcon {
+    display: flex;
+    /* margin: 0 20px; */
+    column-gap: 20px;
+    padding-bottom: 61px;
+}
+
+.socialIcon a {
+    border: 2px solid #575757;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    opacity: 0.4;
+    color: #BABABA;
+
+}
+
+
+.bannerbtn a {
     padding: 12px 40px;
     background: #FD6F00;
-    font-weight: 700;
-    font-size: 16px; 
-    color: white;
-    border: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 24px;
+
+
 }
 
-.nav-link:hover{
-    color: #FD6F00 !important;
+.bannerImage {
+    filter: grayscale(100%);
+    transition: .4s;
+
 }
+
+
+/* .bannerImage :hover {
+    filter: grayscale(100%);
+
+} */
+
+
+.box{
+    background-color:#2a2929 ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    width: 534px;
+    padding: 24px;
+    column-gap: 25px;
+    border-radius: 8px;
+}
+.box h5{
+    font-size: 24px;
+    font-weight: 800;
+    color: #FD6F00;
+    letter-spacing: 3%;
+}
+.box h6{
+    font-size: 20px;
+    font-weight: 700;
+    color:#707070;
+    padding-top: 15px;
+    letter-spacing: 3%;
+}
+.one{
+    padding-right:30px;
+    border-right: 1px solid #BABABA;
+    
+}
+.two{
+   border-right: 1px solid #BABABA;
+   padding-right:30px;
+
+} 
+
+
+
+#servicePart{
+    padding-top: 150px;
+}
+.serviceContent{
+    text-align: center;
+}
+.serviceContent h3{
+    color: #BABABA;
+    margin-bottom: 20px;
+
+}
+.serviceContent p{
+    color: #707070;
+    margin-bottom: 80px;
+
+}
+.boxcontent{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.oneB{
+    background-color: #2a2929;
+    text-align: center;
+    border-radius: 24px;
+    padding: 34px;
+}
+.oneB a{
+    width: 340px;
+    color: #FD6F00;
+    font-size: 24px;
+    
+    
+}
+.oneB h3{
+    width: 340px;
+    color: #FD6F00;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    letter-spacing: 3%;
+    padding: 24px 0;
+}
+
+.oneB p{
+    width: 340px;
+    color: #575757;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 3%;
+}
+
