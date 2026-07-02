@@ -146,8 +146,6 @@ body{
     border-radius: 8px;
     color: #fff;
     margin-right: 24px;
-
-
 }
 
 .bannerImage {
@@ -251,4 +249,48 @@ body{
     line-height: 160%;
     letter-spacing: 3%;
 }
+
+
+
+
+#aboutPart{
+    padding-top: 150px;
+}
+.content{
+    text-align: center;
+}
+.content h3{
+    color: #BABABA;
+    margin-bottom: 20px;
+
+}
+.content p{
+    color: #707070;
+    margin-bottom: 40px;
+
+}
+.contentTwo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.text p{
+    width: 630px;
+    height: 494px;
+    line-height: 190%;
+    color: #BABABA;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 130px;
+    margin-bottom: 40px;
+}
+  .text .btn a {
+    padding: 12px 40px;
+    background: #FD6F00;
+    border-radius: 8px;
+    color: #fff;
+}  
+
+
 
