@@ -145,7 +145,16 @@ body{
     background: #FD6F00;
     border-radius: 8px;
     color: #fff;
+    font-size: 20px;
+    font-weight: 700;
     margin-right: 24px;
+    border: 2px solid #959595;
+    transition: .4s;
+}
+.bannerbtn a:hover{
+    color: #959595;
+    background-color:transparent;
+
 }
 
 .bannerImage {
@@ -294,3 +303,167 @@ body{
 
 
 
+#portfolioPart{
+    padding-top: 150px;
+}
+.portfolio{
+     text-align: center; 
+    
+}
+.portfolio h3{
+    color: #BABABA;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+   
+
+}
+
+.allWork a {
+    padding: 12px 40px;
+    background: #FD6F00;
+    border-radius: 8px;
+    color: #fff;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .4s;
+    /* margin-bottom: 70px; */
+}
+.allWork a:hover{
+    background-color:#2a2929 ;
+    color: #C6C6C6;
+}
+
+
+.picture{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a2929;
+    color: #C6C6C6;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    padding: 16px;
+}
+.cardinfo h5{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    letter-spacing: 3%;
+}
+
+.pictureT{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.pictureTT{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#contactPart{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    
+}
+.contactme{
+    text-align: center;
+    
+}
+.contactme h3{
+    color: #BABABA;
+    margin-bottom: 20px;
+
+}
+.contactme p{
+    color: #707070;
+    margin-bottom: 50px;
+}
+.contactme .common{
+    width: 461px;
+    height: 54px;
+    padding: 14px 24px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border: none;
+    background-color: #2a2929 ;
+    border-radius: 8px;   
+   
+} 
+.button a{
+    padding: 12px 40px;
+    background: #FD6F00;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff; 
+    border: 2px solid #959595;
+    transition: .4s; 
+     
+}
+.button a:hover{
+    color: #959595;
+    background-color:transparent;
+}
+
+
+
+#footerPart{
+    background-color: #2a2929;
+}
+.footerContent{
+    padding-top: 40px;
+    
+    text-align: center; 
+}
+.footerLogo img{
+    padding-bottom: 30px;
+}
+.footermenu a{
+    padding-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #C6C6C6;
+}
+
+
+.footerIcon a{
+    border: 1px solid #984300;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    color: #BABABA;
+}
+.footerIcon{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gmail{
+   padding-bottom: 50px; 
+   color: #C6C6C6;
+   
+}
+
+.lastText{
+    padding-bottom: 24px;
+    color: #C6C6C6;
+    font-size: 16px;
+    font-weight: 700;
+    
+   
+}
+.lastText p{
+    padding: 16px 120px 0 120px; 
+    background-color: transparent;
+    border-top: 1px solid #BABABA;
+    
+}
